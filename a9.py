@@ -74,4 +74,10 @@ print(dividido[0]) #mostra o item na posição 0 da lista
 ou
 print(dividido[0][3])# o primeiro mostra a posição (Curso) e o segundo mostra a terceira posição da letra (s)
 '''
-
+#print('A letra a aparece pela última vez na posição {}'.format(nome.casefold())) #substitui a palavra do input na {}
+#print('A letra a aparece pela última vez na posição {}'.format(nome.endswith('a'))) #diz se tem ou não o item procurado
+#print('A letra a aparece pela última vez na posição {}'.format(nome.expandtabs('a'))) #requer um número inteiro
+#print('A letra a aparece pela última vez na posição {}'.format(nome.format_map('a'))) #substitui a palavra do input na {}
+#print('A letra a aparece pela última vez na posição {}'.format(nome.index('a')))#mostra a primeira vez que o argumento aparece
+#print('A letra a aparece pela última vez na posição {}'.format(nome.zfill('a')))# pede como argumento um inteiro
+#print('A letra a aparece pela última vez na posição {}'.format(nome.isidentifier()))#não precisa de argumento, só lê string
