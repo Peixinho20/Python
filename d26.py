@@ -1,5 +1,5 @@
 '''
-Crie um programa que leia uma frase pelo teclado e mostre:
+Crie um programa que leia uma frase pelo teclado e mostre:          #ATÉ A AULA 9
 
 quantas vezes aparece a letra 'A'
 em que posição ela aparece a primeira vez.
