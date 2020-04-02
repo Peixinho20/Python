@@ -6,6 +6,7 @@ unidades: 4
 dezenas: 3
 centenas: 8
 milhar: 1
+#ATÉ A AULA 9
 '''
 n = str(input('Insira um número entre 0 e 9999: '))
 print('A analisando seu número... ')
