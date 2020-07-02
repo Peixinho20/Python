@@ -5,5 +5,5 @@ primeiro: Ana
 último: Souza
 '''
 nome = str(input('Digite seu nome completo: ')).split()
-print('Primeiro nome: {}'.format(nome[0]))
-print('Último nome: {}'.format(nome[-1]))
+print('Primeiro nome: \033[7;37;46m{}\033[m'.format(nome[0]))
+print('Último nome: \033[0;30;47m{}\033[m'.format(nome[-1]))

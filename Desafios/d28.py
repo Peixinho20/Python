@@ -7,6 +7,6 @@ import random
 n = int(input('Digite um número inteiro de 0 a 5: '))
 x = random.randint(0,5)
 if x == n:
-    print('Parabeńs, você e o computador pensaram no mesmo número!')
+    print('\033[1;31;40mParabeńs, você e o computador pensaram no mesmo número!\033[m')
 else:
-    print('Sinto muito, o número do computador é {}!'.format(x))
+    print('Sinto muito, o número do computador é \033[4;32;41m{}\033[m!'.format(x))

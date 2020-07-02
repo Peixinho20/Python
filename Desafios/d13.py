@@ -3,4 +3,4 @@ Faça um algoritmo que leia o salário de uma funcionário e mostre seu novo sal
 '''
 n = float(input('Digite o salário do funcionário: '))
 N = n + (n*15)/100
-print('O novo salário do funcionário é R$ {:.2f}'.format(N))
+print('O novo salário do funcionário é R$ \033[0;34;43m{:.2f}\033[m'.format(N))
