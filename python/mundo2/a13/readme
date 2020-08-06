@@ -1,1 +1,2 @@
-Comandos usando o for i in range():
+Comandos usando o for i in range(início,fim,passo):
+Comando usado quando se sabe o limite ou fim do processo
