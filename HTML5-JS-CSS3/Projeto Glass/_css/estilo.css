@@ -5,7 +5,7 @@ body {
 }
 
 div#interface {
-    width: 900px;
+    width: 1000px;
     background: #ffffff;
     margin: -20px auto 0px auto; /*nessa ordem: cima, direita, abaixo e esquerda*/
     box-shadow: 0px 0px 10px rgba(0,0,0,.5);
@@ -19,12 +19,32 @@ p {
 
 header#cabecalho img#icone {
     position: absolute;
-    left: 940px;
-    top: 40px;
+    left: 980px;
+    top: 70px;
 }
 
 header#cabecalho {
+    border-bottom: 1px #606060 solid; /*largura, cor e tipo de borda*/
+    height: 150px;
+    background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px; /*no-repeat impede que a imagem seja repetida
+    por todo o cabeçalho, 0px é o deslocamento lateral e 100px é o deslocamento vertical*/
+}
 
+header#cabecalho h1{
+    font-family: Arial, sans-serif;
+    font-size: 30pt;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.6);/*deslocamento, deslocamento vertical, espalhamento e preto claro*/
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+header#cabecalho h2 {
+    font-family: Arial, sans-serif;
+    color: #888888;
+    font-size: 15pt;
+    padding: 0px;
+    margin-top: 0px;
 }
 
 /*Formatação de Imagens com legendas*/
