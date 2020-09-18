@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Tudo sobre Google Glass</title>
+    <link rel="stylesheet" href="_css/estilo.css"/>
+    <link rel="stylesheet" href="_css/media.css"/>
+</head>
+<script language="javascript" src="_javascript/funcoes.js"></script>
+<body>
+    <div id="interface"><!--div é uma divisão-->
+        <header id="cabecalho">
+            <hgroup><!--agrupamento de títulos-->
+                <h1>Google Glass</h1>
+                <h2>A revolução do Google está chegando</h2>
+            </hgroup>
 
-    <head>
-        <meta charset="UTF-8"/>
-        <title>Tudo sobre Google Glass</title>
-        <link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
-    </head>
-    <script language="javascript" src="_javascript/funcoes.js"></script>
-    <body>
-        <div id="interface"><!--div é uma divisão-->
-
-            <header id="cabecalho">
-                <hgroup><!--agrupamento de títulos-->
-                    <h1>Google Glass</h1>
-                    <h2>A revolução do Google está chegando</h2>
-                </hgroup>
-            <img id="icone" src="_imagens/glass-oculos-preto-peq.png">
+            <img id="icone" src="_imagens/multimidia.png"/>
             <nav id="menu"><!--menu de navegação-->
                 <h1>Menu Principal</h1>
                 <ul type="disc">
@@ -28,22 +28,31 @@
             </nav>
             </header>
 
-Glass > Multimídia
-Sons e Vídeos
-por Gustavo Guanabara
-Atualizado em 01/Maio/2013
+        <section id="corpo-full">
+            <article id="noticia-principal">
+                <header id="cabecalho-artigo">
+                    <hgroup>
+                        <h3>Glass > Multimídia</h3><!--migalhas de pão. </br> tag de break row para quebra de linha-->
+                        <h1>Sons e Vídeos</h1> <!--'&nbsp;' isso é para dar espaçamento e significa 'e comercial non-breaking-spaces' ou espaço sem quebra de linha-->
+                        <h2>por Camila de Oliveira</h2>
+                        <h3 class="direita">Atualizado em 01/Setembro/2020</h3>
+                    </hgroup>
+                </header>
+                <div id="tv-radio">
+                    <audio id="musica">
 
+                    </audio>
+                    <video id="filme">
 
-Áudio e Vídeo
-
-[AQUI ENTRA UM VÍDEO]
-[AQUI ENTRA UM ÁUDIO]
-
-            <footer id="rodape">
-                <p>Copyright 2013 - by Gustavo Guanabara <br/>
-                <a href="http://facebook.com/cursosemvideo" target="_blank">Facebook</a> <!--http para links externos--> |
-                <a href="http://twitter.com/cursosemvideo" target="_blank"> Twitter </a></p>
-            </footer>
-        </div>
-    </body>
+                    </video>
+                </div>
+            </article>
+        </section>
+        <footer id="rodape">
+            <p>Copyright 2013 - by Gustavo Guanabara <br/>
+            <a href="http://facebook.com/cursosemvideo" target="_blank">Facebook</a> <!--http para links externos--> |
+            <a href="http://twitter.com/cursosemvideo" target="_blank"> Twitter </a></p>
+        </footer>
+    </div>
+</body>
 </html>
