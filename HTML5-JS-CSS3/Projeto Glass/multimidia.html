@@ -26,7 +26,7 @@
                     <li onmouseover="mudaFoto('_imagens/contato.png')" onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="fale-conosco.html">Fale conosco</a></li>
                 </ul>
             </nav>
-            </header>
+        </header>
 
         <section id="corpo-full">
             <article id="noticia-principal">
@@ -39,11 +39,16 @@
                     </hgroup>
                 </header>
                 <div id="tv-radio">
-                    <audio id="musica">
-
+                    <audio id="musica" controls="controls">
+                        <source src="_media/2009-lovers-carvings-bibio.mp3" type="audio/mpeg"/>
+                        <source src="_media/2009-lovers-carvings-bibio.m4a" type="audio/x-acc"><!--esse e o de baixo são para navegadores que não leem mp3, mas falta converter o arquivos para esses formatos e colocá-los na pasta-->
+                        <source src="_media/2009-lovers-carvings-bibio.ogg" type="audio/ogg">
                     </audio>
-                    <video id="filme">
-
+                    <video id="filme" controls="controls" poster="_imagens/video-mini03.jpg"><!--esse arquivo jpg é um poster para o vídeo-->
+                        <source src="_media/getting-started.mp4" type="video/mp4">
+                        <source src="_media/getting-started.webm" type="video/webm"><!--esse e o de baixo são para navegadores que não leem mp4, mas falta converter o arquivos para esses formatos e colocá-los na pasta-->
+                        <source src="_media/getting-started.ogv" type="video/ogg">
+                        Desculpe, mas não foi possível carregar o vídeo
                     </video>
                 </div>
             </article>
