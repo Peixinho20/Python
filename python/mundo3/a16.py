@@ -14,8 +14,6 @@ print(lanche[1:]) # vai mostrar do elemento 2 até o final
 print(lanche[:1]) # vai mostrar do 0 ao 1
 print(lanche[-3:]) # vai começar na pizza e vai até o final, no pudim
 print(lanche[-4:]) # começar no suco e vai até o final, no pudim
-
-
 lanche = ('Hanbuguer','Suco','Pizza','Pudim') #tupla são entre () lista são [] e dicionario são {}
 for comida in lanche:
     print(f'Eu vou comer {comida}')
@@ -29,15 +27,10 @@ for cont in range(0,len(lanche)):
     print(lanche[cont]) # sem a palavra lanche nessa linha, o programa mostraria o número das posições
     #print(f'Eu vou comer {lanche[cont]} na posição {cont}') outra forma de mostrar
 print('Comi pra caramba!')
-
 # os dois for acima são iguais
-
 #outro metodo
-
 for posicao, comida in enumerate(lanche): # mostra tanto o dado quanto a posição
     print(f'Eu vou comer {comida} na posição {posicao}')
-
-
 lanche = ('Hanbuguer','Suco','Pizza','Pudim') #tupla são entre () lista são [] e dicionario são {}
 print(sorted(lanche)) #printa em ordem alfabética e em forma de lista
 '''
@@ -57,7 +50,3 @@ print(c.index(5,1))# mostrar a posiçao do 5 apartir da posiçao 1
 pessoa = ('Gustavo', 39,'M',99.88) # pode misturar dados de naturezas diferentes
 #del(pessoa) # apaga a tupla inteira
 print(pessoa)
-
-
-
-
